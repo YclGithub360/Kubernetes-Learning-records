@@ -1,0 +1,11 @@
+#管理多副本应用的一种 API 对象，通常通过运行没有本地状态的 Pod 来完成工作
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:
+  labels:
+  nameSpace:
+spec:
+   selector:
+   replicas:
+   minReadySeconds:
